@@ -64,7 +64,7 @@ class ConsoleRunner extends Component
         if ($this->isWindows() === true) {
             pclose(popen('start /b ' . $cmd, 'r'));
         } else {
-            pclose(popen($cmd . ' > /dev/null &', 'r'));
+            pclose(popen($cmd . ' > /dev/null 2>&1 &', 'r'));
         }
         return true;
     }
