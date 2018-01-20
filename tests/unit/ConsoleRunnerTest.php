@@ -58,7 +58,7 @@ final class ConsoleRunnerTest extends TestCase
     }
 
     /**
-     * Clear the content of output file.
+     * Remove the output file.
      */
     private function removeOutputFile()
     {
