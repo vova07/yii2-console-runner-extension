@@ -15,11 +15,7 @@
         "issues": "https://github.com/vova07/yii2-console-runner-extension/issues?state=open",
         "source": "https://github.com/vova07/yii2-console-runner-extension"
     },
-    "config": {
-        "platform": {
-            "php": "5.4"
-        }
-    },
+    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "*"
     },
@@ -30,5 +26,11 @@
         "psr-4": {
             "vova07\\console\\": ["src", "tests"]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
