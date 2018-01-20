@@ -14,7 +14,7 @@ Then do `composer install`.
 
 ## Usage
 
-#### Imported class:
+##### Imported class:
 
 ```php
 use vova07\console\ConsoleRunner;
@@ -22,7 +22,7 @@ $cr = new ConsoleRunner(['file' => '@my/path/to/yii']);
 $cr->run('controller/action param1 param2 ...');
 ```
 
-#### Application component:
+##### Application component:
 
 ```php
 // config.php
