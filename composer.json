@@ -15,6 +15,11 @@
         "issues": "https://github.com/vova07/yii2-console-runner-extension/issues?state=open",
         "source": "https://github.com/vova07/yii2-console-runner-extension"
     },
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    },
     "require": {
         "yiisoft/yii2": "*"
     },
